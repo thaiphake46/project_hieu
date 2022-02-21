@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header .header_img {
+    width: 100%;
+    display: block;
+
+    /* background-image: url('/asscess/img/128b0465608bacd5f59a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center; */
+}
+
+
+.content {
+
+}
+.content .profile {
+    padding: 64px 0;
+    /* background-image: url('/asscess/img/Blue-Galaxy-Wallpapers.jpg'); */
+    background-repeat: no-repeat;
+}
+
+.content .profile .card_visit{
+    width: calc(100% - 30%);
+    height: 600px;
+    margin: 0 auto;
+    background-color: #b1d1fc;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid #000;
+}
+.content .card_visit .profile_heading{
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+
+.content .profile .info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content .profile .bio_header {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.content .profile .bio p {
+    margin-left: 32px;
+    margin-top: 16px;
+}
+
+.content .profile .bio p span {
+    font-weight: 600;
+}
+
+.content .profile .img-info,
+.content .profile .bio {
+    font-size: 28px;
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 2px solid #000;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.content .profile .img-info img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.content .bg_contact {
+    background-color: #000;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.content .contact {
+    width: 850px;
+    height: 450px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    align-items: ;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content .contact .contact_child {
+    padding: 16px 32px;
+    border: 2px solid #000;
+    border-radius: 16px;
+    margin: 16px 32px;
+}
+
+.content .contact_child .child1 {
+    flex: 1;
+}
+
+.content .contact_child .child2 {
+    flex: 1;
+}
+
+.content .contact_child .child2 a {
+    display: block;
+}
+
+.content .contact_child .child3 {
+    flex: 1;
+}
+
+.content .contact .contact_info {
+}
+
+.content .contact .date {
+
+}
